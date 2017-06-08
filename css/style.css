@@ -5,26 +5,29 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Pacifico', cursive;
+	font-size: 25px;
 }
 
 h1 {
-	color: #FF729F;
-	border-style: solid;
+	color: #DEC4A1;
 	text-align: center;
+	padding: 20px;
+	/*text-shadow: 3px 2px red;*/
 }
 h2 {
-	color: #F3DE8A;
-	border-style: dotted;
+	color: #DEC4A1;
 	text-align: center;
+
 }
 body {
-	background-color: #D3C4D1;
+	background-image: "images/smallcactus.jpeg";
+	/* background-color: #D3C4D1; */
 }
 
 button {
-	height: 50px;
-	width: 60px;
-	border-radius: 4px;
+	height: 40px;
+	width: 160px;
+	border: hidden;
 }
 
 label {
@@ -32,7 +35,7 @@ label {
 }
 
 .to-do-form {
-	font-size: 25px;
+	font-size: 40px;
 	padding: 10px;
 	margin: 2%;
 	display: block;
@@ -40,12 +43,12 @@ label {
 }
 
 input {
-	height: 50px;
-	width: 150px;
+	height: 40px;
+	width: 200px;
 
 }
 
 img {
 	display: block;
-	margin: 2%;
-}
+	margin: auto;
+	}

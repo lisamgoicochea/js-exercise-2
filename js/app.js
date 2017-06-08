@@ -16,3 +16,5 @@ function addToDo(event){
 }
 
 userSubmit.addEventListener('click', addToDo, false);
+
+// how can i center the text of the submitted to-do's?
